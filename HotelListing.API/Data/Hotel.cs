@@ -10,7 +10,7 @@ namespace HotelListing.API.Data
         public double Rating { get; set; }
         [ForeignKey(nameof(CountryID))]
         public int CountryID { get; set; }
-        public Country Country { get; set; }
+      /*  public Country Country { get; set; }*/
 
     }
 }
